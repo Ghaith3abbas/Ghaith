@@ -1,4 +1,4 @@
-class CreateQuotes < ActiveRecord::Migration[5.0]
+class CreateQuotes < ActiveRecord::Migration
   def change
     create_table :quotes do |t|
       t.string :saying
